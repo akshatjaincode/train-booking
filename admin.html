@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="css/images/logo.png" alt="Logo">
+            <h1>Train Booking System - Admin</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="admin.html">Dashboard</a></li>
+                <li><a href="manage-trains.html">Manage Trains</a></li>
+                <li><a href="view-reports.html">View Reports</a></li>
+                <li><a href="login.html" onclick="logout()">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Welcome, Admin</h2>
+        <div class="dashboard">
+            <div class="table-aggregate">
+                <h3>Train Summary</h3>
+                <table>
+                    <tr>
+                        <th>Train</th>
+                        <th>Bookings</th>
+                    </tr>
+                    <tr>
+                        <td>Train 101</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Train 202</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>Train 303</td>
+                        <td>90</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Train Booking System. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
